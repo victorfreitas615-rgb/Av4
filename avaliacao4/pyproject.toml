@@ -1,0 +1,19 @@
+[project]
+name = "avaliacao4"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Victor_Hugo_e_Igor", email = "victor.freitas615@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mysql-connector-python>=26.7.0",
+]
+
+[project.scripts]
+avaliacao4 = "avaliacao4:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
